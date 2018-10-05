@@ -3,9 +3,9 @@ import Search from './../components/Search.js';
 import { connect } from 'react-redux';
 import handleSearchChange from '../actions/search.js';
 
-const mapStateToProps = (state) => {
+const mapStateToProps = (state) => ({
   query: state.query
-}
+})
 
 const mapDispatchToProps = (dispatch) => ({
   handleSearchInputChange: (q) => {
