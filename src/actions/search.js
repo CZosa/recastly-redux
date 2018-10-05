@@ -21,11 +21,3 @@ var handleVideoSearch = (q) => {
 };
 
 export default handleVideoSearch;
-
-  // return (dispatch) => {
-  //   return searchYouTube({YOUTUBE_API_KEY, q}, () => {
-  //     // dispatch(changeVideoList())
-  //     // dispatch(changeVideo())
-  //   })
-  // }
-  // return thunk;
